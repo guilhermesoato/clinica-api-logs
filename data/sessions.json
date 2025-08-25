@@ -1,0 +1,18 @@
+{
+  "SES-0V1FUVTI": {
+    "id": "SES-0V1FUVTI",
+    "startTime": "2025-08-25T22:14:09.342Z",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "status": "active",
+    "messageCount": 42,
+    "appointmentCount": 2
+  },
+  "SES-UX8MN3BC": {
+    "id": "SES-UX8MN3BC",
+    "startTime": "2025-08-25T22:26:33.617Z",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "status": "active",
+    "messageCount": 0,
+    "appointmentCount": 0
+  }
+}

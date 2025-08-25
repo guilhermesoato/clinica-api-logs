@@ -1,0 +1,570 @@
+[
+  {
+    "id": 1756160793617,
+    "sessionId": "SES-UX8MN3BC",
+    "type": "event",
+    "message": "Nova sessão iniciada",
+    "timestamp": "2025-08-25T22:26:33.617Z",
+    "details": {
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+    }
+  },
+  {
+    "id": 1756160637311,
+    "sessionId": "SES-0V1FUVTI",
+    "type": "message",
+    "message": "Bot: ✅ Consulta agendada com sucesso!\n\n📋 Detalhes do agendamento:\n👤 Paciente: Ana Maria\n🩺 Médico: Dra....",
+    "timestamp": "2025-08-25T22:23:57.311Z",
+    "details": {
+      "sender": "bot",
+      "fullMessage": "✅ Consulta agendada com sucesso!\n\n📋 Detalhes do agendamento:\n👤 Paciente: Ana Maria\n🩺 Médico: Dra. Maria Santos\n🏥 Especialidade: Dermatologia\n📅 Data: 30/08/2025\n⏰ Horário: 17:00\n🔢 Código: APT-TMAO2XLSP\n\nPor favor, chegue 15 minutos antes.\n\nDigite 'menu' para voltar ao menu principal.",
+      "currentFlow": "menu"
+    }
+  },
+  {
+    "id": 1756160635810,
+    "sessionId": "SES-0V1FUVTI",
+    "type": "appointment",
+    "message": "Agendamento criado para Ana Maria",
+    "timestamp": "2025-08-25T22:23:55.810Z",
+    "details": {
+      "specialty": "Dermatologia",
+      "doctor": {
+        "id": 2,
+        "name": "Dra. Maria Santos",
+        "specialty": "Dermatologia",
+        "available": true
+      },
+      "date": "30/08/2025",
+      "time": "17:00",
+      "patientName": "Ana Maria",
+      "phone": "61983456789",
+      "email": "eumamaria@hotmail.com",
+      "appointmentId": "APT-TMAO2XLSP"
+    }
+  },
+  {
+    "id": 1756160635810,
+    "sessionId": "SES-0V1FUVTI",
+    "type": "message",
+    "message": "Usuário: eumamaria@hotmail.com",
+    "timestamp": "2025-08-25T22:23:55.810Z",
+    "details": {
+      "sender": "user",
+      "fullMessage": "eumamaria@hotmail.com",
+      "currentFlow": "schedule_email"
+    }
+  },
+  {
+    "id": 1756160626528,
+    "sessionId": "SES-0V1FUVTI",
+    "type": "message",
+    "message": "Bot: Por último, informe seu e-mail:",
+    "timestamp": "2025-08-25T22:23:46.528Z",
+    "details": {
+      "sender": "bot",
+      "fullMessage": "Por último, informe seu e-mail:",
+      "currentFlow": "schedule_email"
+    }
+  },
+  {
+    "id": 1756160625027,
+    "sessionId": "SES-0V1FUVTI",
+    "type": "message",
+    "message": "Usuário: 61983456789",
+    "timestamp": "2025-08-25T22:23:45.027Z",
+    "details": {
+      "sender": "user",
+      "fullMessage": "61983456789",
+      "currentFlow": "schedule_phone"
+    }
+  },
+  {
+    "id": 1756160613906,
+    "sessionId": "SES-0V1FUVTI",
+    "type": "message",
+    "message": "Bot: Agora, informe seu telefone para contato:",
+    "timestamp": "2025-08-25T22:23:33.906Z",
+    "details": {
+      "sender": "bot",
+      "fullMessage": "Agora, informe seu telefone para contato:",
+      "currentFlow": "schedule_phone"
+    }
+  },
+  {
+    "id": 1756160612400,
+    "sessionId": "SES-0V1FUVTI",
+    "type": "message",
+    "message": "Usuário: Ana Maria",
+    "timestamp": "2025-08-25T22:23:32.400Z",
+    "details": {
+      "sender": "user",
+      "fullMessage": "Ana Maria",
+      "currentFlow": "schedule_name"
+    }
+  },
+  {
+    "id": 1756160607222,
+    "sessionId": "SES-0V1FUVTI",
+    "type": "message",
+    "message": "Bot: Por favor, informe seu nome completo:",
+    "timestamp": "2025-08-25T22:23:27.222Z",
+    "details": {
+      "sender": "bot",
+      "fullMessage": "Por favor, informe seu nome completo:",
+      "currentFlow": "schedule_name"
+    }
+  },
+  {
+    "id": 1756160605720,
+    "sessionId": "SES-0V1FUVTI",
+    "type": "message",
+    "message": "Usuário: 13",
+    "timestamp": "2025-08-25T22:23:25.720Z",
+    "details": {
+      "sender": "user",
+      "fullMessage": "13",
+      "currentFlow": "schedule_patient_info"
+    }
+  },
+  {
+    "id": 1756160593022,
+    "sessionId": "SES-0V1FUVTI",
+    "type": "message",
+    "message": "Bot: Horários disponíveis:\n\n1. 08:00\n2. 08:30\n3. 09:00\n4. 09:30\n5. 10:00\n6. 10:30\n7. 14:00\n8. 14:30\n9. 15...",
+    "timestamp": "2025-08-25T22:23:13.022Z",
+    "details": {
+      "sender": "bot",
+      "fullMessage": "Horários disponíveis:\n\n1. 08:00\n2. 08:30\n3. 09:00\n4. 09:30\n5. 10:00\n6. 10:30\n7. 14:00\n8. 14:30\n9. 15:00\n10. 15:30\n11. 16:00\n12. 16:30\n13. 17:00\n\nDigite o número do horário desejado:",
+      "currentFlow": "schedule_patient_info"
+    }
+  },
+  {
+    "id": 1756160591520,
+    "sessionId": "SES-0V1FUVTI",
+    "type": "message",
+    "message": "Usuário: 5",
+    "timestamp": "2025-08-25T22:23:11.520Z",
+    "details": {
+      "sender": "user",
+      "fullMessage": "5",
+      "currentFlow": "schedule_time"
+    }
+  },
+  {
+    "id": 1756160589449,
+    "sessionId": "SES-0V1FUVTI",
+    "type": "message",
+    "message": "Bot: Datas disponíveis:\n\n1. 26/08/2025\n2. 27/08/2025\n3. 28/08/2025\n4. 29/08/2025\n5. 30/08/2025\n6. 01/09/2...",
+    "timestamp": "2025-08-25T22:23:09.449Z",
+    "details": {
+      "sender": "bot",
+      "fullMessage": "Datas disponíveis:\n\n1. 26/08/2025\n2. 27/08/2025\n3. 28/08/2025\n4. 29/08/2025\n5. 30/08/2025\n6. 01/09/2025\n\nDigite o número da data desejada:",
+      "currentFlow": "schedule_time"
+    }
+  },
+  {
+    "id": 1756160587944,
+    "sessionId": "SES-0V1FUVTI",
+    "type": "message",
+    "message": "Usuário: 1",
+    "timestamp": "2025-08-25T22:23:07.944Z",
+    "details": {
+      "sender": "user",
+      "fullMessage": "1",
+      "currentFlow": "schedule_date"
+    }
+  },
+  {
+    "id": 1756160585210,
+    "sessionId": "SES-0V1FUVTI",
+    "type": "message",
+    "message": "Bot: Médicos disponíveis em Dermatologia:\n\n1. Dra. Maria Santos\n\nDigite o número do médico desejado:",
+    "timestamp": "2025-08-25T22:23:05.210Z",
+    "details": {
+      "sender": "bot",
+      "fullMessage": "Médicos disponíveis em Dermatologia:\n\n1. Dra. Maria Santos\n\nDigite o número do médico desejado:",
+      "currentFlow": "schedule_date"
+    }
+  },
+  {
+    "id": 1756160583706,
+    "sessionId": "SES-0V1FUVTI",
+    "type": "message",
+    "message": "Usuário: 2",
+    "timestamp": "2025-08-25T22:23:03.706Z",
+    "details": {
+      "sender": "user",
+      "fullMessage": "2",
+      "currentFlow": "schedule_doctor"
+    }
+  },
+  {
+    "id": 1756160580639,
+    "sessionId": "SES-0V1FUVTI",
+    "type": "message",
+    "message": "Bot: Temos as seguintes especialidades disponíveis:\n\n1. Cardiologia\n2. Dermatologia\n3. Ortopedia\n4. Pedia...",
+    "timestamp": "2025-08-25T22:23:00.639Z",
+    "details": {
+      "sender": "bot",
+      "fullMessage": "Temos as seguintes especialidades disponíveis:\n\n1. Cardiologia\n2. Dermatologia\n3. Ortopedia\n4. Pediatria\n\nDigite o número da especialidade desejada:",
+      "currentFlow": "schedule_doctor"
+    }
+  },
+  {
+    "id": 1756160578629,
+    "sessionId": "SES-0V1FUVTI",
+    "type": "message",
+    "message": "Bot: Vou ajudá-lo a agendar uma consulta. Primeiro, vamos escolher a especialidade médica.",
+    "timestamp": "2025-08-25T22:22:58.629Z",
+    "details": {
+      "sender": "bot",
+      "fullMessage": "Vou ajudá-lo a agendar uma consulta. Primeiro, vamos escolher a especialidade médica.",
+      "currentFlow": "schedule_specialty"
+    }
+  },
+  {
+    "id": 1756160577123,
+    "sessionId": "SES-0V1FUVTI",
+    "type": "message",
+    "message": "Usuário: agendar",
+    "timestamp": "2025-08-25T22:22:57.123Z",
+    "details": {
+      "sender": "user",
+      "fullMessage": "agendar",
+      "currentFlow": "menu"
+    }
+  },
+  {
+    "id": 1756160576151,
+    "sessionId": "SES-0V1FUVTI",
+    "type": "message",
+    "message": "Bot: Como posso ajudá-lo?\n\n• Agendar uma consulta\n• Cancelar um agendamento\n• Reagendar uma consulta\n• Co...",
+    "timestamp": "2025-08-25T22:22:56.151Z",
+    "details": {
+      "sender": "bot",
+      "fullMessage": "Como posso ajudá-lo?\n\n• Agendar uma consulta\n• Cancelar um agendamento\n• Reagendar uma consulta\n• Consultar horários disponíveis\n• Falar com atendimento",
+      "currentFlow": "menu"
+    }
+  },
+  {
+    "id": 1756160574649,
+    "sessionId": "SES-0V1FUVTI",
+    "type": "message",
+    "message": "Usuário: menu",
+    "timestamp": "2025-08-25T22:22:54.649Z",
+    "details": {
+      "sender": "user",
+      "fullMessage": "menu",
+      "currentFlow": "menu"
+    }
+  },
+  {
+    "id": 1756160553301,
+    "sessionId": "SES-0V1FUVTI",
+    "type": "message",
+    "message": "Bot: ✅ Consulta com código APT-XHNT1HZRT foi cancelada com sucesso!\n\nDigite 'menu' para voltar.",
+    "timestamp": "2025-08-25T22:22:33.301Z",
+    "details": {
+      "sender": "bot",
+      "fullMessage": "✅ Consulta com código APT-XHNT1HZRT foi cancelada com sucesso!\n\nDigite 'menu' para voltar.",
+      "currentFlow": "menu"
+    }
+  },
+  {
+    "id": 1756160551799,
+    "sessionId": "SES-0V1FUVTI",
+    "type": "message",
+    "message": "Usuário: APT-XHNT1HZRT",
+    "timestamp": "2025-08-25T22:22:31.799Z",
+    "details": {
+      "sender": "user",
+      "fullMessage": "APT-XHNT1HZRT",
+      "currentFlow": "cancel"
+    }
+  },
+  {
+    "id": 1756160545457,
+    "sessionId": "SES-0V1FUVTI",
+    "type": "message",
+    "message": "Bot: Para cancelar um agendamento, preciso do código da consulta:",
+    "timestamp": "2025-08-25T22:22:25.457Z",
+    "details": {
+      "sender": "bot",
+      "fullMessage": "Para cancelar um agendamento, preciso do código da consulta:",
+      "currentFlow": "cancel"
+    }
+  },
+  {
+    "id": 1756160543955,
+    "sessionId": "SES-0V1FUVTI",
+    "type": "message",
+    "message": "Usuário: cancelar",
+    "timestamp": "2025-08-25T22:22:23.955Z",
+    "details": {
+      "sender": "user",
+      "fullMessage": "cancelar",
+      "currentFlow": "menu"
+    }
+  },
+  {
+    "id": 1756160534285,
+    "sessionId": "SES-0V1FUVTI",
+    "type": "message",
+    "message": "Bot: Como posso ajudá-lo?\n\n• Agendar uma consulta\n• Cancelar um agendamento\n• Reagendar uma consulta\n• Co...",
+    "timestamp": "2025-08-25T22:22:14.285Z",
+    "details": {
+      "sender": "bot",
+      "fullMessage": "Como posso ajudá-lo?\n\n• Agendar uma consulta\n• Cancelar um agendamento\n• Reagendar uma consulta\n• Consultar horários disponíveis\n• Falar com atendimento",
+      "currentFlow": "menu"
+    }
+  },
+  {
+    "id": 1756160532783,
+    "sessionId": "SES-0V1FUVTI",
+    "type": "message",
+    "message": "Usuário: menu",
+    "timestamp": "2025-08-25T22:22:12.783Z",
+    "details": {
+      "sender": "user",
+      "fullMessage": "menu",
+      "currentFlow": "menu"
+    }
+  },
+  {
+    "id": 1756160138280,
+    "sessionId": "SES-0V1FUVTI",
+    "type": "message",
+    "message": "Bot: ✅ Consulta agendada com sucesso!\n\n📋 Detalhes do agendamento:\n👤 Paciente: Guilherme Soato\n🩺 Médico...",
+    "timestamp": "2025-08-25T22:15:38.280Z",
+    "details": {
+      "sender": "bot",
+      "fullMessage": "✅ Consulta agendada com sucesso!\n\n📋 Detalhes do agendamento:\n👤 Paciente: Guilherme Soato\n🩺 Médico: Dr. João Silva\n🏥 Especialidade: Cardiologia\n📅 Data: 29/08/2025\n⏰ Horário: 09:00\n🔢 Código: APT-XHNT1HZRT\n\nPor favor, chegue 15 minutos antes.\n\nDigite 'menu' para voltar ao menu principal.",
+      "currentFlow": "menu"
+    }
+  },
+  {
+    "id": 1756160136777,
+    "sessionId": "SES-0V1FUVTI",
+    "type": "appointment",
+    "message": "Agendamento criado para Guilherme Soato",
+    "timestamp": "2025-08-25T22:15:36.777Z",
+    "details": {
+      "specialty": "Cardiologia",
+      "doctor": {
+        "id": 1,
+        "name": "Dr. João Silva",
+        "specialty": "Cardiologia",
+        "available": true
+      },
+      "date": "29/08/2025",
+      "time": "09:00",
+      "patientName": "Guilherme Soato",
+      "phone": "61981797546",
+      "email": "guilhermesoato7@gmail.com",
+      "appointmentId": "APT-XHNT1HZRT"
+    }
+  },
+  {
+    "id": 1756160136776,
+    "sessionId": "SES-0V1FUVTI",
+    "type": "message",
+    "message": "Usuário: guilhermesoato7@gmail.com",
+    "timestamp": "2025-08-25T22:15:36.776Z",
+    "details": {
+      "sender": "user",
+      "fullMessage": "guilhermesoato7@gmail.com",
+      "currentFlow": "schedule_email"
+    }
+  },
+  {
+    "id": 1756160127663,
+    "sessionId": "SES-0V1FUVTI",
+    "type": "message",
+    "message": "Bot: Por último, informe seu e-mail:",
+    "timestamp": "2025-08-25T22:15:27.663Z",
+    "details": {
+      "sender": "bot",
+      "fullMessage": "Por último, informe seu e-mail:",
+      "currentFlow": "schedule_email"
+    }
+  },
+  {
+    "id": 1756160126161,
+    "sessionId": "SES-0V1FUVTI",
+    "type": "message",
+    "message": "Usuário: 61981797546",
+    "timestamp": "2025-08-25T22:15:26.161Z",
+    "details": {
+      "sender": "user",
+      "fullMessage": "61981797546",
+      "currentFlow": "schedule_phone"
+    }
+  },
+  {
+    "id": 1756160121191,
+    "sessionId": "SES-0V1FUVTI",
+    "type": "message",
+    "message": "Bot: Agora, informe seu telefone para contato:",
+    "timestamp": "2025-08-25T22:15:21.191Z",
+    "details": {
+      "sender": "bot",
+      "fullMessage": "Agora, informe seu telefone para contato:",
+      "currentFlow": "schedule_phone"
+    }
+  },
+  {
+    "id": 1756160119688,
+    "sessionId": "SES-0V1FUVTI",
+    "type": "message",
+    "message": "Usuário: Guilherme Soato",
+    "timestamp": "2025-08-25T22:15:19.688Z",
+    "details": {
+      "sender": "user",
+      "fullMessage": "Guilherme Soato",
+      "currentFlow": "schedule_name"
+    }
+  },
+  {
+    "id": 1756160116264,
+    "sessionId": "SES-0V1FUVTI",
+    "type": "message",
+    "message": "Bot: Por favor, informe seu nome completo:",
+    "timestamp": "2025-08-25T22:15:16.264Z",
+    "details": {
+      "sender": "bot",
+      "fullMessage": "Por favor, informe seu nome completo:",
+      "currentFlow": "schedule_name"
+    }
+  },
+  {
+    "id": 1756160114758,
+    "sessionId": "SES-0V1FUVTI",
+    "type": "message",
+    "message": "Usuário: 3",
+    "timestamp": "2025-08-25T22:15:14.758Z",
+    "details": {
+      "sender": "user",
+      "fullMessage": "3",
+      "currentFlow": "schedule_patient_info"
+    }
+  },
+  {
+    "id": 1756160113303,
+    "sessionId": "SES-0V1FUVTI",
+    "type": "message",
+    "message": "Bot: Horários disponíveis:\n\n1. 08:00\n2. 08:30\n3. 09:00\n4. 09:30\n5. 10:00\n6. 10:30\n7. 14:00\n8. 14:30\n9. 15...",
+    "timestamp": "2025-08-25T22:15:13.303Z",
+    "details": {
+      "sender": "bot",
+      "fullMessage": "Horários disponíveis:\n\n1. 08:00\n2. 08:30\n3. 09:00\n4. 09:30\n5. 10:00\n6. 10:30\n7. 14:00\n8. 14:30\n9. 15:00\n10. 15:30\n11. 16:00\n12. 16:30\n13. 17:00\n\nDigite o número do horário desejado:",
+      "currentFlow": "schedule_patient_info"
+    }
+  },
+  {
+    "id": 1756160111799,
+    "sessionId": "SES-0V1FUVTI",
+    "type": "message",
+    "message": "Usuário: 4",
+    "timestamp": "2025-08-25T22:15:11.799Z",
+    "details": {
+      "sender": "user",
+      "fullMessage": "4",
+      "currentFlow": "schedule_time"
+    }
+  },
+  {
+    "id": 1756160109902,
+    "sessionId": "SES-0V1FUVTI",
+    "type": "message",
+    "message": "Bot: Datas disponíveis:\n\n1. 26/08/2025\n2. 27/08/2025\n3. 28/08/2025\n4. 29/08/2025\n5. 30/08/2025\n6. 01/09/2...",
+    "timestamp": "2025-08-25T22:15:09.902Z",
+    "details": {
+      "sender": "bot",
+      "fullMessage": "Datas disponíveis:\n\n1. 26/08/2025\n2. 27/08/2025\n3. 28/08/2025\n4. 29/08/2025\n5. 30/08/2025\n6. 01/09/2025\n\nDigite o número da data desejada:",
+      "currentFlow": "schedule_time"
+    }
+  },
+  {
+    "id": 1756160108399,
+    "sessionId": "SES-0V1FUVTI",
+    "type": "message",
+    "message": "Usuário: 1",
+    "timestamp": "2025-08-25T22:15:08.399Z",
+    "details": {
+      "sender": "user",
+      "fullMessage": "1",
+      "currentFlow": "schedule_date"
+    }
+  },
+  {
+    "id": 1756160105214,
+    "sessionId": "SES-0V1FUVTI",
+    "type": "message",
+    "message": "Bot: Médicos disponíveis em Cardiologia:\n\n1. Dr. João Silva\n\nDigite o número do médico desejado:",
+    "timestamp": "2025-08-25T22:15:05.214Z",
+    "details": {
+      "sender": "bot",
+      "fullMessage": "Médicos disponíveis em Cardiologia:\n\n1. Dr. João Silva\n\nDigite o número do médico desejado:",
+      "currentFlow": "schedule_date"
+    }
+  },
+  {
+    "id": 1756160103710,
+    "sessionId": "SES-0V1FUVTI",
+    "type": "message",
+    "message": "Usuário: 1",
+    "timestamp": "2025-08-25T22:15:03.710Z",
+    "details": {
+      "sender": "user",
+      "fullMessage": "1",
+      "currentFlow": "schedule_doctor"
+    }
+  },
+  {
+    "id": 1756160100075,
+    "sessionId": "SES-0V1FUVTI",
+    "type": "message",
+    "message": "Bot: Temos as seguintes especialidades disponíveis:\n\n1. Cardiologia\n2. Dermatologia\n3. Ortopedia\n4. Pedia...",
+    "timestamp": "2025-08-25T22:15:00.075Z",
+    "details": {
+      "sender": "bot",
+      "fullMessage": "Temos as seguintes especialidades disponíveis:\n\n1. Cardiologia\n2. Dermatologia\n3. Ortopedia\n4. Pediatria\n\nDigite o número da especialidade desejada:",
+      "currentFlow": "schedule_doctor"
+    }
+  },
+  {
+    "id": 1756160098064,
+    "sessionId": "SES-0V1FUVTI",
+    "type": "message",
+    "message": "Bot: Vou ajudá-lo a agendar uma consulta. Primeiro, vamos escolher a especialidade médica.",
+    "timestamp": "2025-08-25T22:14:58.064Z",
+    "details": {
+      "sender": "bot",
+      "fullMessage": "Vou ajudá-lo a agendar uma consulta. Primeiro, vamos escolher a especialidade médica.",
+      "currentFlow": "schedule_specialty"
+    }
+  },
+  {
+    "id": 1756160096562,
+    "sessionId": "SES-0V1FUVTI",
+    "type": "message",
+    "message": "Usuário: agendar",
+    "timestamp": "2025-08-25T22:14:56.562Z",
+    "details": {
+      "sender": "user",
+      "fullMessage": "agendar",
+      "currentFlow": "menu"
+    }
+  },
+  {
+    "id": 1756160049342,
+    "sessionId": "SES-0V1FUVTI",
+    "type": "event",
+    "message": "Nova sessão iniciada",
+    "timestamp": "2025-08-25T22:14:09.342Z",
+    "details": {
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+    }
+  }
+]
