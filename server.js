@@ -11,8 +11,7 @@ const LOGS_FILE = path.join(DATA_DIR, 'logs.json');
 const SESSIONS_FILE = path.join(DATA_DIR, 'sessions.json');
 
 // Middleware
-const GITHUB_PAGES_URL = 'https://guilhermesoato.github.io'; 
-app.use(cors({ origin: GITHUB_PAGES_URL }));
+app.use(cors());
 app.use(express.json({ limit: '10mb' })); // Permite que a API entenda JSON
 app.use(express.static('public')); // Serve os arquivos da pasta 'public' (chatbot.html, dashboard.html)
 
@@ -190,4 +189,5 @@ process.on('SIGINT', async () => {
     await saveData();
     console.log('✅ Dados salvos. Desligando.');
     process.exit(0);
+
 });
