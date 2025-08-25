@@ -174,6 +174,33 @@ app.get('/api/stats', (req, res) => {
     res.json({ success: true, data: stats });
 });
 
+// ==================================
+// ROTA ADMINISTRATIVA PARA LIMPEZA
+// ==================================
+app.post('/api/admin/clear-all-data', async (req, res) => {
+    // Uma pequena "chave secreta" para evitar que qualquer um limpe os dados
+    const { secret } = req.body;
+    if (secret !== 'clinica-saude-2025') {
+        return res.status(401).json({ success: false, error: 'Chave secreta inválida.' });
+    }
+
+    try {
+        console.log('⚠️  Recebida solicitação para limpar todos os dados...');
+        // Limpa as variáveis em memória
+        logs = [];
+        sessions = {};
+
+        // Salva as variáveis vazias nos arquivos, efetivamente limpando-os
+        await saveData();
+
+        console.log('✅  Todos os logs e sessões foram limpos com sucesso.');
+        res.json({ success: true, message: 'Todos os logs e sessões foram limpos.' });
+
+    } catch (error) {
+        console.error('❌ Erro ao limpar os dados:', error);
+        res.status(500).json({ success: false, error: 'Erro interno ao limpar os dados.' });
+    }
+});
 
 // Inicia o servidor
 app.listen(PORT, async () => {
@@ -191,3 +218,4 @@ process.on('SIGINT', async () => {
     process.exit(0);
 
 });
+
